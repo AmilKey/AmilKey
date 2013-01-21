@@ -1,0 +1,2 @@
+c:\users\admin\documents\visual studio 2012\Projects\ShooterMultiPlayer\ShooterMultiPlayer\ShooterMultiPlayerContent\obj\x86\Debug\ShooterMultiPlayerContent.contentprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2012\Projects\TestMultiPlayer\ShooterMultiPlayer\ShooterMultiPlayerContent\obj\x86\Debug\ShooterMultiPlayerContent.contentprojResolveAssemblyReference.cache
