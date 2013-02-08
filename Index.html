@@ -1,0 +1,108 @@
+﻿<!DOCTYPE>
+
+<html>
+	
+<head>
+		
+<meta http-equiv="Content-Type" content="text/html">
+	
+<title>Кобзарь И.И. страничка визитка</title>
+	
+<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+	
+
+<!--[if IE]>
+
+<link rel="stylesheet" type="text/css" href="ie.css" media="screen">
+
+<![endif]-->
+
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+
+		<!-- Navigation and Content effects -->
+		<script type="text/javascript">
+		    $(document).ready(function () {
+		        $('.page').hide();
+		        $('#navigation li:first').addClass('active').show();
+		        $('.page:first').show();
+
+		        $('#navigation li').click(function () {
+		            $('#navigation li').removeClass('active');
+		            $(this).addClass('active');
+
+		            $('.page').hide();
+		            var activeTab = $(this).find('a').attr('href');
+		            $(activeTab).fadeIn('slow');
+		            return false;
+		        });
+		    });
+		</script>
+
+	</head>
+	<body>
+		<div id="pagewrap">
+			
+			<!-- Site header and navigation -->
+			<div id="header">
+				<ul id="navigation">
+					<li><a class="about" href="#about"><img src="images/icon-about.png" alt="About"></a></li>
+					<li><a class="work" href="#work">work</a></li>
+					<li><a class="contact" href="#social"><img src="images/icon-contact.png" alt="Contact"></a></li>
+				</ul>
+			</div>
+			
+			<!-- Site content -->
+
+			<div id="content">
+				<div id="about" class="page">
+					<div class="left">
+						<img id="author" src="images/author-photo.png"  alt="photo">
+					</div>
+					<div class="right">
+						<h2>Здравствуйте!</h2>
+						<p>Кобзарь Иван Игоревич, я студент 2го курса, учусь в ЮФУ(ТК, бывш. ТТИ) по специальности программная инженерия, мне 20 лет.</p>
+						<h3>Дальше по списку:</h3>
+						<ul>
+							<li>Читаю такие книги:Троелсен Э. — Язык программирования C# 2010 и платформа .NET4, ASP.NET MVC Framework с примерами на C# для профессионалов, Антон шевчук - jQuery Учебник для начинающих</li>
+							<li>С английским есть небольшие трудности, помогает translate.google.ru </li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="work" class="page">
+					<div class="left">
+						<img src="images/amilkey.png" alt="Featured project">
+						<h3><a href="http://www.amilkey.ru">Мой сайт</a></h3>
+						<p>Использование Parallax Effect</p>
+					</div>
+					<div class="right">
+						<p>Прослушал курс в компании RusWizards по теме "Разработка приложений на платформе Microsoft .NET", посещаю курсы компании InoSoft по теме "основы С#, HTML, CSS, JavaScript, AJAX, ASP.NET MVC 4, Ruby on Rails" </p>
+                        <p>Нравится работать с шаблонами сайтов, изменять содержимое, "оживлять"сайты, понравилась работа с jQuery, изучаю различные плагины написанные с его помощью </p>
+					</div>
+				</div>
+	
+				<div id="social" class="page">
+					<div class="left">
+						<p class="tweet-text">Мой почтовый ящик <a href="mailto:kobzar.ivan1@gmail.com">kobzar.ivan1@gmail.com</a></p>
+					</div>
+					<div class="right">
+						<ul>
+							<li class="VK"><a href="http://vk.com/amilkey"><img src="images/icon-VK.png" alt="VK"> Vkontakte</a></li>
+							<li class="twitter"><a href="http://twitter.com/Amil_Key"><img src="images/icon-twitter.png" alt="twitter"> Twitter</a></li>
+							<li class="instagram"><a href="http://instagram.com/amil_key/"><img src="images/icon-instagram.jpg" alt="instagram"> instagram</a></li>
+							<li class="skype"><a href="#"><img src="images/icon-skype.jpg" alt="skype"> betman1992</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="footer">
+				<p>&copy; Copyright notice here  </p>
+			</div>
+		</div>
+	</body>
+</html>
+
